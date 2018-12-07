@@ -1,0 +1,210 @@
+*{
+    font-family: Gill Sans Extrabold, sans-serif;
+
+}
+
+p {
+    text-indent: 3em;
+}
+
+nav {
+    background-color: #ff0000;
+    padding: 0.2em;
+}
+
+body{
+    background-color: #ffffff;
+    background-image: url('../images/Background.jpg');
+    
+}
+
+nav a:link{
+    background-color: white;
+}
+
+form{
+    font: bold 0.7em Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    width:30em;
+    margin: auto;
+    text-transform: uppercase;
+    color: #ff0000;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    max-width: 100%;
+}
+
+a:link {
+    background-color: #fff;
+    color:#009;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    border: 2px solid #6633ff;
+    background-color: #9999ff;
+}
+
+nav ol li {
+    display: inline-block;
+    list-style-type: none;
+    width:17em;
+   
+}
+
+.activePage{
+    background-color: #ccffff;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    box-shadow: 0.3em 0.3em 0.3em grey;
+    padding: 0.3em;
+   
+}
+
+#top header{
+    font-size: 20pt;
+}
+
+
+.Theme{
+    height:700px;
+    width:1350px;
+    max-width: 100%;
+    
+}
+
+.Article{
+    text-transform: uppercase;
+    font-size:17pt;
+    text-align: center;
+}
+
+.cursive{
+    font-size:17pt;
+    font-family:cursive;
+    font-style:oblique;
+    text-align: center;
+}
+
+.messageSender, #form h3 {
+    background: black;
+    font-size: 18pt;
+    color: white;
+    font-weight: bold;
+    width: 500px;
+    margin: auto;
+    padding: 0.5em;
+}
+
+fieldset{
+    background-color: #9999ff;
+    border: 2px solid #9966ff;
+    clear: both;
+    margin-top: 2em;
+    padding: 1em;
+    
+}
+
+label{
+    color: #66ffcc;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+.form-heading{
+    border-bottom: 2px solid #33ffff;
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 1.75em;
+    padding-bottom: 0.4em;
+    
+}
+
+.check-part{
+    margin: 0 0 1.25em 7.5em;
+}
+
+.radio-part{
+    margin: 0 0 1.25em 7.5em;
+}
+
+.text-part{
+    display: block;
+    float: left;
+    margin: 0 0 1.2em;
+    padding-right: 0.5em;
+    padding-top: 0.75em;
+    text-align: right;
+    width: 7em;
+    
+}
+
+form input, form textarea, form select{
+    background-color: #33ccff;
+    box-sizing: border-box;
+    border: 2px solid #66ffff;
+    box-shadow: 2px 2px 4px #3333ff;
+    border-radius: 3px;
+    padding: 1em;
+    outline: none;
+    font-size: 14pt;
+    
+}
+
+form input:focus, form textarea:focus,form select:focus{
+    border: 1px solid #ffcccc;
+    
+}
+
+form input:hover{
+    background-color: #ff6600;
+    border: 2px solid #ff0033;
+    padding: 1em;
+}
+
+form input[type=submit]{
+    background: #000066 none repeat scroll 0 0;
+    border: solid medium none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px #ccccff;
+    color: #ffffff;
+    margin: 1em;
+    padding: 0.8em 1.4em;
+    font-size: 14pt;
+    
+}
+
+form input[type=submit]:hover{
+    background-color: #00cccc;
+    border: 2px solid #333333;
+}
+
+.shadowEffect{
+    box-shadow: 1px 1px 4px #9999ff;
+    border: 2px solid #333333;
+    padding: 0;
+}
+
+.buttons legend{
+    display: none;
+}
+
+.mistake{
+    color: darkred;
+    background-color: #660000;
+    text-transform: uppercase;
+    font-size: 11pt;
+    font-weight: bold;
+    border: thin solid red;
+}
+
+#errors ol li{
+    color: #ff3333;
+    
+}
